@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(new MyImage(getApplicationContext()));
     }
 
-    class MyImage extends View {
+    /*class MyImage extends View {
         MyImage(Context context){
             super(context);
 
@@ -37,5 +37,5 @@ public class MainActivity extends AppCompatActivity {
             canvas.skew(0.4f,0.4f);
             canvas.drawBitmap(picture,x,y,null);
         }
-    }
+    }*/
 }
